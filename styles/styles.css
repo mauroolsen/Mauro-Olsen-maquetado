@@ -1,0 +1,28 @@
+.highlighted{
+  background-color: #FBE100;
+}
+
+.input-group-text{
+  background-color: white;
+}
+
+.card{
+  border: 0;
+}
+
+.card:hover{
+  border: 2px solid #D7D8DC;
+}
+
+.hidden{
+  display: none;
+}
+
+.hidden:hover{
+  display: block;
+}
+
+.nohidden:hover + .hidden{
+  display: block;
+}
+
